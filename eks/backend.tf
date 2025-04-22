@@ -11,7 +11,7 @@ terraform {
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
     encrypt        = "true"
-    dynamodb_table = "Lock-Files"
+    dynamodb_table = "Lock-FIles"
     attribute {
     name = "LockID"
     type = "S"
